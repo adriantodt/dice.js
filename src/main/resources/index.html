@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Dice Rolling</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-Bo21yfmmZuXwcN/9vKrA5jPUMhr7znVBBeLxT9MA4r2BchhusfJ6+n8TLGUcRAtL" crossorigin="anonymous">
+</head>
+<body class="h-100">
+<div class="d-flex justify-content-center align-items-center h-100">
+    <div class="d-flex flex-column align-items-center text-center">
+        <div class="row">
+            <div class="col">
+                <label class="sr-only" for="diceInput">Dice</label>
+                <input type="text" class="form-control mb-2 mr-sm-2" id="diceInput" placeholder="Dice">
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn btn-success mb-2" id="diceButton">I'm feeling lucky</button>
+            </div>
+        </div>
+        <div id="diceOutput" style="font-size:3vw;">
+            <p>---</p>
+        </div>
+    </div>
+</div>
+<script src="DiceJs.js"></script>
+</body>
+</html>
